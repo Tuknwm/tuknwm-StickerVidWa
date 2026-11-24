@@ -1,7 +1,3 @@
-# Video to Sticker + sound
-
-A WhatsApp bot that turns a video into a **sticker with sound**.
-
 ## Requirements
 
 - Node.js 20+
@@ -60,7 +56,7 @@ Reply to a message with these commands :
 ```bash
 .audiosticker
 ```
-So first send a video into the bot or in grup and then replay it and type **.audiosticker**.
+So first send a video into the bot or in grup and then replay the video and type **.audiosticker**.
 | Reply to | Result |
 |---|---|
 | Video | Animated sticker from the video, with its sound |
