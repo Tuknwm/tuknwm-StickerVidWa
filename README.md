@@ -9,7 +9,7 @@ A WhatsApp bot that turns a video into a **sticker with sound**.
 
 ## Setup
 
-1. Install ffmpeg. It is a separate program and is **not** installed by `npm install`.
+1. Install ffmpeg. It is a separate program and is **not** installed by `npm install`. (if you already have, then skip this part)
 
    | OS | Command |
    |---|---|
@@ -25,7 +25,11 @@ A WhatsApp bot that turns a video into a **sticker with sound**.
 
    Without ffmpeg the bot still logs in, but replying to a video returns an error.
 
-2. Install the Node packages: Go to the folder, right click open terminal then
+2. After that, Open terminal then type 
+   ```bash
+   git clone https://github.com/Tuknwm/tuknwm-StickerVidWa.git
+   ```
+3. once done go to the folder, right click open terminal or cd "folder path" then type
 
    ```bash
    npm install
@@ -34,7 +38,7 @@ A WhatsApp bot that turns a video into a **sticker with sound**.
 3. If done, Set your bot's phone number (country code, digits only) in `index.js`:
 
    ```js
-   const PHONE = '62xxxxxxxxxxx';
+   const PHONE = '62xxxxxxxxxxx'; example 628123456789
    ```
 
 ## Run
